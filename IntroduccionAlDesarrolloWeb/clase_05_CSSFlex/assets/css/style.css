@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div .box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid rgb(249, 249, 249);
+  background-color: rgb(174, 146, 111);
+  color: black;
+  font-size: 30px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes3 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* div {
+  border: 2px solid rebeccapurple;
+  display: inline;
+}
+
+a {
+  border: 2px solid brown;
+  display: block;
+} */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  background-color: brown;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+ul li {
+  padding: 15px;
+}
+
+ul li:hover {
+  color: black;
+  background-color: rgb(193, 82, 82);
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li i {
+  margin-right: 5px;
+}
