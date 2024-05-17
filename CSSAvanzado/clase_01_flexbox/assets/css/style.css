@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+/* div * {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid white;
+} */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aligItems {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+
+.aligItems div {
+  border: 2px solid white;
+}
+
+menu {
+  background-color: rgb(85, 13, 13);
+  min-height: 100vh;
+  width: 200px;
+}
+
+menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+menu li {
+  padding: 10px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+menu a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+menu a:hover {
+  color: black;
+}
+
+.padre {
+  display: flex;
+}
