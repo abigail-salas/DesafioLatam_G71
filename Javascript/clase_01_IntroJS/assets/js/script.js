@@ -1,10 +1,8 @@
 /* --------- VALORES PRIMITIVOS --------- */
 
 /* Números */
-(3 + 2) * 3 + 1;
-// devuelve ---> 16
-3 + 2 * 3 + 1;
-// devuelve ---> 10
+(3 + 2) * 3 + 1; // devuelve ---> 16
+3 + 2 * 3 + 1; // devuelve ---> 10
 
 /* String */
 ("Hola, cómo estás?");
@@ -15,14 +13,10 @@ true;
 false;
 
 /* Funcion para saber el tipo de dato ingresado (SIEMPRE LO DEVUELVE COMO UN STRING) */
-typeof 12;
-// devuelve ---> 'number'
-typeof "hola";
-// devuelve ---> 'string'
-typeof true;
-// devuelve ---> 'boolean'
-typeof "23";
-// devuelve ---> 'string'
+typeof 12; // devuelve ---> 'number'
+typeof "hola"; // devuelve ---> 'string'
+typeof true; // devuelve ---> 'boolean'
+typeof "23"; // devuelve ---> 'string'
 
 /* --------- MENSAJES DE CONSOLA --------- */
 console.log("Probando un mensaje");
@@ -60,6 +54,7 @@ console.log(nombre, "<---- nombre modificado");
 // let resultado = primerNum + segundoNum;
 // alert("La suma de tus numeros es: " + resultado);
 
+/* Otra resolucion del mismo problema ↓↓↓↓ */
 // let primerNum = prompt("Decime un numero");
 // let segundoNum = prompt("Decime otro numero");
 // let resultado = Number(primerNum) + Number(segundoNum);
@@ -91,7 +86,7 @@ console.log(
 //   `Hola, mi nombre completo es ${nombreCompleto} y tengo ${edad} años de edad`
 // );
 
-/* --------- DOM (Document Objet Model) --------- */
+/* --------- DOM (Document Object Model) --------- */
 
 let elemento = document.querySelector("p");
 console.log(elemento);
@@ -99,6 +94,8 @@ console.log(elemento);
 let menu = document.querySelector(".navbar");
 let cardSection = document.querySelector("#card-section");
 let footer = document.querySelector("footer");
+
+/* MANIPULANDO EL DOM */
 
 /* Cambiar o agregar texto */
 menu.innerHTML = "Modificando el menú desde JS";
