@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Condicionales + DOM -->
+    <p id="secret-result"></p>
+    <input type="text" id="input" />
+    <button
+      onclick=" let value = document.querySelector('#input').value
+       if (value == 'password secreto') {
+         let par = document.querySelector('#secret-result')
+         par.innerHTML = 'Lo Lograste' 
+       } "
+    >
+      Verificar
+    </button>
+
+    <!-- EJERCICIO -->
+
+    <p id="grados"></p>
+    <input type="text" id="input-value" placeholder="Ingresa los grados" />
+    <button
+      onclick=" let input = document.querySelector('#input-value').value
+       if (input > 50) {
+         let result = document.querySelector('#grados')
+         result.innerHTML = 'Superaste la cantidad'
+       } "
+    >
+      Verificar
+    </button>
+
+    <p id="mensaje"></p>
+    <input type="text" id="password" placeholder="Ingresa la contraseña" />
+    <button
+      onclick=" let pass = document.querySelector('#password').value;
+       let content = document.querySelector('#mensaje');
+       if (pass == 'desafio latam') {
+         content.innerHTML = 'Lo lograste';
+       } else {
+         content.innerHTML = 'Error';
+       } "
+    >
+      Verificar
+    </button>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
