@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.producto {
+  width: 300px;
+  padding: 10px;
+  background-color: brown;
+  color: black;
+  border: 2px solid;
+}
+
+.producto p {
+  font-size: 20px;
+}
