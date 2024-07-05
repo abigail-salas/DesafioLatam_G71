@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.seccion-lista {
+  width: 300px;
+  background-color: rgb(102, 17, 17);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 10px;
+}
