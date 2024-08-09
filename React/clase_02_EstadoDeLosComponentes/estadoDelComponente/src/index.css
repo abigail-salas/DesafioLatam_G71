@@ -1,0 +1,43 @@
+body {
+  background-color: #242424;
+  color: aliceblue;
+}
+
+.contador {
+  background-color: rgb(130, 31, 31);
+  color: #ffffff;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.contador-btn {
+  background-color: #27040a;
+  color: rgb(254, 253, 253);
+  border-radius: 20px 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.inputDiv {
+  margin: 20px;
+  background-color: #4f2958;
+  color: #fffbb7;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-btn {
+  background-color: #fffbb7;
+  color: #4f2958;
+  border-radius: 20px 10px;
+  margin-bottom: 10px;
+
+  text-align: center;
+}
